@@ -1,1 +1,103 @@
+body {
+    margin: 20px; /* margem externa para centralização */
+    max-width: 1400px; /* largura máxima do conteúdo */
+    font-family: Arial, sans-serif;
+    padding: 0 20px; /* espaço interno para separar conteúdo das bordas */
+	background-color: #f2f2f2
+}
 
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 20px; /* margem inferior para separar o cabeçalho do conteúdo */
+}
+
+header a {
+	color: #fff;
+	text-decoration: none
+}
+
+header a:visited {
+	color: #fff;
+	text-decoration: none
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 100%; /* ocupar toda a largura disponível */
+    margin-bottom: 20px; /* margem inferior para separar as seções */
+}
+
+.background {
+    padding: 20px; /* margem interna para o conteúdo */
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.background:hover {
+    transform: scale(1.05);
+}
+
+.background h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.background p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.background.fase01 {
+    background-color: #fff;
+}
+
+.background.fase02 {
+    background-color: #fff;
+}
+
+.background.fase03 {
+    background-color: #fff;
+}
+
+.fase01 {
+	color: #333;
+}
+
+.fase02 {
+	color: #333;
+}
+
+.fase03 {
+	color: #333;
+}
+
+.button {
+    display: inline-block;
+    background-color: #333;
+    color: #FFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button:hover {
+    background-color: #f1f1f1;
+    transform: scale(1.1);
+}
